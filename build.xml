@@ -1,4 +1,4 @@
-git<project basedir="." default="compile" name="site">
+<project basedir="." default="compile" name="site">
     <path id="class.path">
         <fileset dir="lib">
             <include name="**/*"/>
