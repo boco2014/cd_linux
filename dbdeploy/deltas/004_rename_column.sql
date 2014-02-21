@@ -1,0 +1,5 @@
+ALTER TABLE Test ALTER COLUMN Data RENAME TO Description;
+
+--//@UNDO
+
+ALTER TABLE Test ALTER COLUUMN Description RENAME TO Data; 
